@@ -33,6 +33,8 @@
 
 ## 3 эксперимент
 Модель формата flan - это модель работающая с инструкциями, поэтому было принято решение дать инструкцию к каждой фразе на входе, что также не дало результата
+
+
 Инструкция ```("Correctly split a continuous phrase in Russian into separate words using spaces | " + phrase)```
 ![alt text](images/3.jpg)
 
