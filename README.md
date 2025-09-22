@@ -33,6 +33,8 @@
 
 ## 3 эксперимент
 Модель формата flan - это модель работающая с инструкциями, поэтому было принято решение дать инструкцию к каждой фразе на входе, что также не дало результата
+
+
 Инструкция ```("Correctly split a continuous phrase in Russian into separate words using spaces | " + phrase)```
 ![alt text](images/3.jpg)
 
@@ -50,20 +52,25 @@
 Поэтому было принято решение обучить модель на 50% датасета
 В результате модель показала
 
-``` accuracy при 100% совпадении индексов пробелов predict и target - 0.9306```
+``` accuracy при 100% совпадении индексов пробелов predict и target - 0.9337```
 
-``` precision - 0.9788```
+``` precision - 0.9789```
 
-``` recall - 0.9723```
+``` recall - 0.9713```
 
-``` f1 - 0.9756```
+``` f1 - 0.9751```
 
-``` loss_train - 0.0799```
+``` loss_train - 0.0796```
 
-``` loss_validation - 0.0407```
+``` loss_validation - 0.0441```
 
 Графики обучения модели:
 ![alt text](images/6.jpg)
+
+
+Результат на Stepik:
+
+![alt text](images/7.jpg)
 
 Также ссылка на ноутбук kaggle - https://www.kaggle.com/code/destee/avito-ds-internship/
 
