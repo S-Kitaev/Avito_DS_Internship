@@ -1,6 +1,8 @@
 # Avito_DS_Internship
 Китаев Степан, почта - kitaev.ste@yandex.ru
 
+Ссылка на облако, с архивом с моделью - https://drive.google.com/drive/folders/1qYpUp19WosnXLnEuuXxWFwHWlBjz-ugp?usp=drive_link
+
 
 Задание - разработать модель или алгоритм, который принимает на вход текст без пробелов и возвращает восстановленный текст с правильными пробелами и позициями, где они были пропущены.
 
